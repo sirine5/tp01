@@ -1,0 +1,233 @@
+
+
+<div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+/*header{
+position: fixed;
+top: 0;left: 0;right: 0;
+background-color:green;
+padding: 2rem 9%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+}
+header.logo{
+	font-size: 3rem;
+	color: #333;
+	font-weight: bolder;
+
+}
+header.logo span{color: blue;}
+header.navbar a{
+font-size: 2rem;
+padding: 0 1.5rem;
+color: #666;
+
+}
+header.navbar a:hover{color:blue;  }*/
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+/*html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding:2rem 9%;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(51, 102, 255, 0.05);
+}
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:#fff;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}*/
+
+
+.main{
+    width: 100%;
+   /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);*/
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #C689C6;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #C689C6;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #C689C6;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #C689C6;
+    border: 2px solid #C689C6;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+.tete{
+	color: white;
+	background-color: #273c75;
+	border-radius: 0px;
+	height: 70px;
+    width: 100%;
+	font-family:arial;
+}
+.queue{
+	color: white;
+	background-color: #747d8c;
+	border-radius: 0px;
+	height: 100px;
+    width: 100%;
+	font-family:arial;
+	text-align: center;
+}
+.logo{
+		float: left;
+		line-height: 60px; 
+		padding-left: 50px;
+		font-family:arial;
+}
+#login{
+	height: 200px;
+    width: 200px;
+}
+.sais{
+	height: 35px;
+}
+
+.menu-all .menu-item{
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 40px;
+	font-family:arial; 
+}.menu-all .menu-item:hover{
+background-color: #7f8fa6;
+}
+#sp{
+	font-size=300pt;
+}
+#herro{
+		width: 100%;
+		height: 400px;
+		padding-top: 40px;
+}
+.dl{
+	color: white;
+	background-color: #CAD3C8;
+	border-radius: 10px;
+	height: 50px;
+    width: 40%;
+	font-family:arial;
+}
+.content .a{ color: #C689C6;}

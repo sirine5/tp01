@@ -1,0 +1,12 @@
+*{
+	align:center;
+	margin-top:0px;
+	border-radius:160px;
+	font-family:tahoma;}
+   h1{text-align:center; 
+	}
+    .sp:hover{color:#00F;font-weight:bold;text-decoration:none;}
+     .sp:active{color:green;text-decoration:none;font-weight:normal}
+       input{ width:280px; height: 40px;}
+
+
